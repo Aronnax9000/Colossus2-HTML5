@@ -4,7 +4,9 @@ class Uniselector2 {
   position = 0;
   
   name;
-  
+  bank; // Array of Level 
+  wipers; // Array of Wiper
+  interruptor = true;
   constructor(props) {
     this.name = props.name;
     this.position = props.position;
