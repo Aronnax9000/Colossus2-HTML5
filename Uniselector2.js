@@ -1,4 +1,12 @@
 // uniselector2.js - Emulate a PO Type 2 Uniselector
+class Wiper {
+  offset;
+  bridging = false;
+}
+class WiperLevel {
+   wipers;
+}
+
 class Uniselector2 {
 // 25 rows of wipers but 50 positions in 180 degree mode
   position = 0;
