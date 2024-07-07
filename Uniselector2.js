@@ -9,7 +9,15 @@ class Wiper {
   bridging = false;
 }
 class Bank {
+  
+  constructor(props) {
+    this.name = props.name;
+    this.positions = props.positions;
+    this.levels = props.levels;
+  }
+  
    wipers; // Array of Wiper
+   
 }
 
 
@@ -26,6 +34,10 @@ class Uniselector2 {
   constructor(props) {
     this.name = props.name;
     this.position = props.position;
+    this.positions = 50;
+    this.contacts = 25;
+    this.levels = 5;
+    this.intwrruptor = true;
   }
 
   introduceSelf() {
